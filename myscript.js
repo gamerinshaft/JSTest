@@ -52,4 +52,30 @@ console.log(string);
 var gattai;
   gattai = "5" + 5;
 console.log(gattai);
+/*
+  条件分岐
+  if(条件){
+    true
+  } else {
+    false
+  }
+*/
+
+var score = 40;
+if(score < 30){
+  console.log("small");
+}else if (score === 30){
+  console.log("pittari");
+}else{
+  console.log("big");
+}
+/*
+  === は == でもいいが
+  前者の方が厳密に計算してくれる
+
+  論理演算子
+   AND &&
+   OR ||
+   NOT !
+*/
 
