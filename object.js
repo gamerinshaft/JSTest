@@ -22,3 +22,19 @@ var hoge = {
 };
 
 hoge.greet("Tom");
+
+/*
+組み込みオブジェクトついて
+
+  - String
+  - Array
+  - Math
+  - Date
+
+  MDNで確認
+*/
+
+var s = new String("taneichi Junpei");
+console.log(s.length);
+console.log(s.replace("t","T"));
+console.log(s.substr(1,3));
