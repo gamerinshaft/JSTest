@@ -77,5 +77,41 @@ if(score < 30){
    AND &&
    OR ||
    NOT !
+
+   真偽値
+    文字列：　空文字以外だったらtrue
+    数値： 0 か NaN(not a number)以外だったらtrue
+    true / false
+    object: null 以外 true
+    undifined, null -> false
 */
 
+if (x) {
+  //処理
+}
+if (x !== '') {
+  //処理
+}
+/*上は同じ tureかfalseを判別してる*/
+
+/*
+  三項演算子
+  var a, b, c;
+  if (条件) {
+    a = b;
+  } else {
+    a = c;
+  }
+
+  はこれと同じ→
+
+  a = (条件) ? b : c;
+
+*/
+
+var max, x, y;
+x = 20;
+y = 30;
+max = (x > y) ? x : y;
+
+console.log(max);
