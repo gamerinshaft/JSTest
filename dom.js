@@ -14,7 +14,15 @@ e.textContent = 'hogehoge';
 e.style.color = 'red';
 e.className = 'myStyle';
 
+/*
 var greet = document.createElement('p'),
     text = document.createTextNode('hello!');
 document.body.appendChild(greet).appendChild(text);
 greet.className = 'text';
+*/
+document.getElementById('add').addEventListener('click', function(){
+  var greet = document.createElement('p'),
+      text = document.createTextNode('hello!');
+  document.body.appendChild(greet).appendChild(text);
+  greet.className = 'text';
+});
