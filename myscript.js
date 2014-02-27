@@ -33,3 +33,23 @@ var x;
   x += 50;
   console.log(x);
   console.log("100");
+/*
+  文字列
+    表現方法
+    特殊文字
+  演算子
+*/
+
+var s;
+s = "hello\n\'world!\'.";
+console.log(s);
+t = "\n\tonakahettayo";
+string = s + t;
+console.log(string);
+
+/* 文字列と数値の足し算などの場合は数値が文字列として扱われる*/
+
+var gattai;
+  gattai = "5" + 5;
+console.log(gattai);
+
