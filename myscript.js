@@ -164,4 +164,33 @@ for (var i = 0; i < 10; i++) {
   console.log("hoge", i);
 }
 
+/*
+  alert
+  confirm
+  prompt ユーザーから情報をうけとる
+*/
+
+var answer = confirm("are you sure?");
+
+if (answer){
+  alert("sure");
+}else{
+  alert("no");
+}
+var name = prompt("お名前は？");
+
+if(name){
+  alert(name);
+}else{
+  alert("名前が入力されていません");
+}
+
+var name = prompt("お名前は？", "名無しさん");
+if(name){
+  alert(name);
+}else{
+  alert("名前が入力されていません");
+}
+
+
 
