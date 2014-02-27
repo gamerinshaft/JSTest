@@ -115,3 +115,25 @@ y = 30;
 max = (x > y) ? x : y;
 
 console.log(max);
+
+/*
+  switch文について
+*/
+
+var signal = "hoge";
+
+switch (signal) {
+  case "red":
+    console.log("stop!");
+    break;
+  case "yellow":
+    console.log("slow down!");
+    break;
+  case "green":
+  case "blue":
+    console.log("go!");
+    break;
+  default:
+    console.log("nothing!");
+    break;
+}
