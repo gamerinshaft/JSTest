@@ -23,5 +23,13 @@ var hello = function(name){
   return msg;
 };
 
+//即時関数 他の人が定義した変数と干渉しない
+(function hello(name) {
+  console.log("hello" + name);
+})("tom");
+
+(function (name) {
+  console.log("hello" + name);
+})("tom");
 
 
