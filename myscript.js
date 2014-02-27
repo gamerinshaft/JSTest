@@ -137,3 +137,20 @@ switch (signal) {
     console.log("nothing!");
     break;
 }
+
+/*
+  loop処理
+  while
+  do ... while
+*/
+
+var i = 0;
+while(i < 10) {
+  console.log(i);
+  i++;
+}
+var id = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 10);
