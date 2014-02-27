@@ -154,3 +154,14 @@ do {
   console.log(i);
   i++;
 } while (i < 10);
+
+
+for (var i = 0; i < 10; i++) {
+  if ( i === 5){
+    //break;
+    continue;
+  }
+  console.log("hoge", i);
+}
+
+
